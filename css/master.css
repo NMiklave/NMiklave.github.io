@@ -1,6 +1,15 @@
-.Header {
-  border: 5px solid #555555;
+body {
+  margin: 0;
+  min-width: 960px;
+  background-color: #555555;
 }
+
+.Header {
+  border-top: 5px solid #555555;
+  border-left: 5px solid #555555;
+  border-right: 5px solid #555555;
+}
+
 
 .Header h1 {
   text-align: center;
@@ -14,33 +23,50 @@
 }
 
 .NavBar {
-  min-width: inherit;
+  top: 0;
+  position: sticky;
+  margin: 0px;
+  padding: 10px 0px 10px 0px;
   list-style-type: none;
   background-color: maroon;
-  margin: 0px;
-  padding: 10px;
-
+  border: 5px solid #555555;
 }
 
 .NavBar li {
-  text-align: center;
+  margin-right: -4px;
+  padding: 0px;
   display: inline;
-  width: 12vw;
-  font-size: 20px;
-  margin-right: 0;
-  padding: 5px;
-  border: 3px black solid;
-}
-
-.NavBar li:hover {
-  background-color: red;
 }
 
 .NavBar li a {
-  text-decoration: none;
+  margin: 0px;
+  padding: 11px 10px 10px 10px;
   color: white;
+  font-size: 20px;
+  text-decoration: none;
+  border-right: 2px solid #555555;
+}
+
+.NavBar li a:hover {
+  background-color: red;
 }
 
 #CurrentPage {
   background-color: black;
+}
+
+
+.BlackBar {
+  height: 10px;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+.Subject {
+  height: 1000px;
+  margin: 10px;
+  margin-top:0px;
+  padding: 0px 10px 10px 10px;
+  background-color: white;
 }
