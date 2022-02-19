@@ -1,0 +1,46 @@
+.Header {
+  border: 5px solid #555555;
+}
+
+.Header h1 {
+  text-align: center;
+  margin: 0px;
+  padding-top: 10px;
+  width: auto;
+  height: 100px;
+  background-color: #AAAAAA;
+  align-content: center;
+  font-size: 60px;
+}
+
+.NavBar {
+  min-width: inherit;
+  list-style-type: none;
+  background-color: maroon;
+  margin: 0px;
+  padding: 10px;
+
+}
+
+.NavBar li {
+  text-align: center;
+  display: inline;
+  width: 12vw;
+  font-size: 20px;
+  margin-right: 0;
+  padding: 5px;
+  border: 3px black solid;
+}
+
+.NavBar li:hover {
+  background-color: red;
+}
+
+.NavBar li a {
+  text-decoration: none;
+  color: white;
+}
+
+#CurrentPage {
+  background-color: black;
+}
