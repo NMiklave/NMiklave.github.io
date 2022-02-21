@@ -79,7 +79,7 @@ body {
 }
 
 .Subject div {
-  border: 2px black solid;
+  border: 2px solid black;
   list-style-type: none;
   margin-bottom: 40px;
 }
