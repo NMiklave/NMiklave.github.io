@@ -103,10 +103,11 @@ body {
 }
 
 .CollapsableBlog li:hover {
-  background-color: black;
+  background-color: #888888;
 }
 
 .CollapsableBlog li p {
+  display: none;
   margin: 0px;
   padding: 5px 20px 20px;
   font-size: 15pt;
@@ -117,4 +118,14 @@ body {
 .ContactForm {
   padding-bottom: 30px;
   text-align: center;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.Footer {
+  display: flex;
+  justify-content: center;
+  background-color: maroon;
 }
