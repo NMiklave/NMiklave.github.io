@@ -144,7 +144,11 @@ body {
 */
 
 .Footer {
+  height: 100px;
   display: flex;
   justify-content: center;
   background-color: maroon;
+  border-left: 5px solid #555555;
+  border-right: 5px solid #555555;
+  border-bottom: 5px solid #555555;
 }

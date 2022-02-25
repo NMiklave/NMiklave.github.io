@@ -27,15 +27,15 @@
         <h1>Collapsable List</h1>
         <ul class="CollapsableBlog">
           <li>
-            <button type="button" class="CollapsableItem inactive">Most recent update </button>
+            <button type="button" class="CollapsableItem inactive" onclick="collapsable(this)">Most recent update </button>
             <p>Content of most recent update</p>
           </li>
           <li>
-            <button type="button" class="CollapsableItem inactive">Second most recent </button>
+            <button type="button" class="CollapsableItem inactive" onclick="collapsable(this)">Second most recent </button>
             <p>Content of second most recent update</p>
           </li>
           <li>
-            <button type="button" class="CollapsableItem inactive">Oldest update </button>
+            <button type="button" class="CollapsableItem inactive" onclick="collapsable(this)">Oldest update </button>
             <p>Content of oldest update</p>
           </li>
         </ul>
@@ -45,14 +45,16 @@
         <h1>Submit An Update</h1>
         <form>
            Subject: <br><input style="min-width: 500px"><br><br>
-           Content: <br><input style="min-width: 500px; min-height: 500px">
+           Content: <br><input style="min-width: 500px; min-height: 200px">
         </form>
       </div>
 
     </div>
 
     <div class="Footer">
-      <h5>Page Footer</h5>
+      <h5>
+      Footer Text
+      </h5>
     </div>
   </body>
 
