@@ -1,29 +1,23 @@
 /*
-To use: Make a list, in each <li> element, include a <span> (to be clicked on)
-        and a <p> that will have its display be toggled.
+To use: Make a list, in each <li> element, include a <button> (to be clicked on) and a <p> that will have its display toggled.
 */
 
-var allSpan = document.getElementsByTagName('span');
+// Get all elements of type <button>
+var allSpan = document.getElementsByClassName("CollapsableItem");
+for(var x = 0; x < allSpan.length; x++) {
+	// Listen for clicks to occur, then execute
+  allSpan[x].addEventListener("click", function() {
+  	// Toggle the .active class (starts off)
+  	this.classList.toggle("active");
 
-for(var x = 0; x < allSpan.length; x++)
-{
-    allSpan[x].onclick=function()
-    {
-        if(this.parentNode)
-        {
-            var childList = this.parentNode.getElementsByTagName('p');
-            for(var y = 0; y< childList.length;y++)
-						{
-    					var currentState = childList[y].style.display;
-    					if(currentState=="block")
-    					{
-        				childList[y].style.display="none";
-    					}
-    					else
-    					{
-        				childList[y].style.display="block";
-    					}
-            }
-				}
+    // Get all <p> elements that are sibling to button
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    	content.style.padding = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+			content.style.padding = "5px 20px 10px";
     }
+  });
 }

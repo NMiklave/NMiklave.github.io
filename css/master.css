@@ -94,25 +94,44 @@ body {
   background-color: #BBBBBB;
 }
 
-.CollapsableBlog li span {
-  display: flex;
+.CollapsableItem {
+  display: block;
+  width: 100%;
   margin-top: -6px;
   padding: 5px 10px 5px;
   font-size: 20pt;
+  text-align: left;
+  cursor: pointer;
+  background-color: #BBBBBB;
   border: 1pt black solid;
 }
 
-.CollapsableBlog li:hover {
+.active, .inactive:hover {
   background-color: #888888;
+}
+.active:hover {
+  background-color: #666666;
+}
+
+.inactive::after {
+  content: "+";
+  font-weight: bold;
+  float: right;
+}
+
+.active::after {
+  content: "\2212";
 }
 
 .CollapsableBlog li p {
-  display: none;
+  max-height: 0;
+  overflow: hidden;
   margin: 0px;
-  padding: 5px 20px 20px;
+  padding: 0;
   font-size: 15pt;
-  background-color: white;
+  background-color: #E8E8E8;
   border: 1pt solid black;
+  transition: max-height 0.2s ease-out;
 }
 
 .ContactForm {
