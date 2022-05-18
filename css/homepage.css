@@ -1,0 +1,111 @@
+body {
+  margin: auto;
+  max-width: 1400px;
+  min-width: 960px;
+  height: auto;
+  background-color: #555555;
+  border-top: 7px solid black;
+  border-right: 7px solid black;
+  border-left: 7px solid black;
+}
+
+.Header {
+  border-bottom: 5px solid black;
+}
+
+.Header h1 {
+  text-align: center;
+  margin: 0px;
+  padding-top: 15px;
+  width: auto;
+  height: 100px;
+  background-color: maroon;
+  color: white;
+  align-content: center;
+  font-size: 60px;
+}
+
+.Content {
+  height: 500px;
+  background-color: white;
+}
+
+.Content h1 {
+  height: 300px;
+}
+
+.SiteBanner {
+  height: 250px;
+  background: rgb(45,199,253);
+  background: linear-gradient(0deg, rgba(45,199,253,1) 0%, rgba(152,228,254,1) 70%, rgba(255,255,255,0.7175070711878502) 100%);
+  display: flex;
+  justify-content: center;
+}
+
+.Circles {
+  padding-bottom: 40px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.Circle {
+  transition: all 0.2s ease-in-out;
+  margin: auto;
+  width: 150px;
+  height: 80px;
+  border-radius: 90px;
+  background-color: rgb(153, 0, 0);
+}
+
+.Circle a {
+  vertical-align: middle;
+  padding-top: 0px;
+  text-decoration: none;
+  color: white;
+}
+
+.About {
+  font-size: 15pt;
+  background-color: #139c4d;
+  border: 5px solid #136c4d;
+  display: flex;
+  justify-content: center;
+}
+
+.Inits {
+  font-size: 15pt;
+  background-color: #e06e1c;
+  border: 5px solid #c8521c;
+  display: flex;
+  justify-content: center;
+}
+
+.Meets {
+  font-size: 15pt;
+  background-color: #c91927;
+  border: 5px solid #991927;
+  display: flex;
+  justify-content: center;
+}
+
+.Srcs {
+  font-size: 15pt;
+  background-color: #195fc9;
+  border: 5px solid #195f99;
+  display: flex;
+  justify-content: center;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.Footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: maroon;
+  border-top: 7px solid black;
+  border-bottom: 7px solid black;
+}
