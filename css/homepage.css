@@ -1,7 +1,6 @@
 body {
   margin: auto;
-  max-width: 1400px;
-  min-width: 960px;
+  width: 1080px
   height: auto;
   background-color: #555555;
   border-top: 7px solid black;
@@ -18,27 +17,28 @@ body {
 .Header h1 {
   text-align: center;
   margin: 0px;
-  padding-top: 6px;
+  padding-top: 7px;
   width: auto;
   color: white;
   font-size: 60px;
 }
 
 .Mission {
-  height: max(200px,30vh);
-  padding-top: max(20px,3vh);
+  height: 300px;
+  padding-top: 10px;
   background-color: white;
 }
 
 .SiteBanner {
-  height: 150px;
-  background: linear-gradient(0deg, rgba(45,199,253,1) 0%, rgba(152,228,254,1) 70%, rgba(255,255,255,0.7175070711878502) 100%);
+  height: 175px;
+  background: linear-gradient(0deg, rgba(45,199,253,1) 0%, rgba(152,228,254,1) 70%, rgba(255,255,255,1) 100%);
   display: flex;
   justify-content: center;
 }
 
 .Circles {
   margin-top: 20px;
+  padding-top: 20px;
   width: 80%;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
