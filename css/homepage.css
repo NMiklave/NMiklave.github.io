@@ -37,7 +37,7 @@ body {
 
 .Mission p {
   padding: 0px 100px 0px;
-  font-size: 15pt
+  font-size: 15pt;
   text-align: justify;
   text-justify: auto;
   text-indent: 2em;
@@ -55,56 +55,25 @@ body {
   padding-top: 20px;
   width: 80%;
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 50% 50%;
 }
 
 .Circle {
-  transition: all 0.2s ease-in-out;
   margin: auto;
-  width: 150px;
-  height: 80px;
+  width: 200px;
   border-radius: 90px;
-  background-color: rgb(153, 0, 0);
+  border: 4pt solid maroon;
+  background-color: #d02020;
+  text-align: center;
 }
 
 .Circle a {
-  vertical-align: middle;
   padding-top: 0px;
   text-decoration: none;
   color: white;
+  font-size: 16pt;
 }
 
-.About {
-  font-size: 15pt;
-  background-color: #139c4d;
-  border: 5px solid #136c4d;
-  display: flex;
-  justify-content: center;
-}
-
-.Inits {
-  font-size: 15pt;
-  background-color: #e06e1c;
-  border: 5px solid #c8521c;
-  display: flex;
-  justify-content: center;
-}
-
-.Meets {
-  font-size: 15pt;
-  background-color: #c91927;
-  border: 5px solid #991927;
-  display: flex;
-  justify-content: center;
-}
-
-.Srcs {
-  font-size: 15pt;
-  background-color: #195fc9;
-  border: 5px solid #195f89;
-  display: flex;
-  justify-content: center;
-}
 
 /*
 ------------------------------------------------------------------------------------------------------------------------------------
