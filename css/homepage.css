@@ -1,6 +1,6 @@
 body {
   margin: auto;
-  width: 1080px
+  width: 1080px;
   height: auto;
   background-color: #555555;
   border-top: 7px solid black;
@@ -27,6 +27,20 @@ body {
   height: 300px;
   padding-top: 10px;
   background-color: white;
+}
+
+.Mission h1 {
+  padding-left: 100px;
+  margin-bottom: 0px;
+  font-size: 24pt;
+}
+
+.Mission p {
+  padding: 0px 100px 0px;
+  font-size: 15pt
+  text-align: justify;
+  text-justify: auto;
+  text-indent: 2em;
 }
 
 .SiteBanner {
