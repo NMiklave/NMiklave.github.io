@@ -23,19 +23,19 @@ body {
   font-size: 60px;
 }
 
-.Mission {
+.Content {
   height: 300px;
   padding-top: 10px;
   background-color: white;
 }
 
-.Mission h2 {
+.Content h2 {
   padding-left: 100px;
   margin-bottom: 0px;
   font-size: 24pt;
 }
 
-.Mission p {
+.Content p {
   padding: 0px 100px 0px;
   font-size: 15pt;
   text-align: justify;
@@ -55,7 +55,7 @@ body {
   padding-top: 20px;
   width: 80%;
   display: grid;
-  grid-template-columns: 50% 50%;
+  /* grid-template-columns: 50% 50%; */
 }
 
 .Circle {
@@ -67,6 +67,15 @@ body {
   text-align: center;
 }
 
+.Circle:hover {
+  margin: auto;
+  width: 200px;
+  border-radius: 90px;
+  border: 4pt solid maroon;
+  background-color: maroon;
+  text-align: center;
+}
+
 .Circle a {
   padding-top: 0px;
   text-decoration: none;
@@ -74,6 +83,30 @@ body {
   font-size: 16pt;
 }
 
+.Join {
+  margin: auto;
+  width: 400px;
+  border-radius: 90px;
+  border: 4pt solid maroon;
+  background-color: #d02020;
+  text-align: center;
+}
+
+.Join:hover {
+  margin: auto;
+  width: 400px;
+  border-radius: 90px;
+  border: 4pt solid maroon;
+  background-color: maroon;
+  text-align: center;
+}
+
+.Join a {
+  padding-top: 0px;
+  text-decoration: none;
+  color: white;
+  font-size: 16pt;
+}
 
 /*
 ------------------------------------------------------------------------------------------------------------------------------------
@@ -86,4 +119,13 @@ body {
   background-color: maroon;
   border-top: 7px solid black;
   border-bottom: 7px solid black;
+}
+
+/*
+------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.TODO {
+  text-decoration: line-through;
+  text-decoration-color: white;
 }
