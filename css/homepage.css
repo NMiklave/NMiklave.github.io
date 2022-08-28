@@ -24,8 +24,9 @@ body {
 }
 
 .Content {
-  height: 300px;
+  height: auto;
   padding-top: 10px;
+  padding-bottom: 0px;
   background-color: white;
 }
 
