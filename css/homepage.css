@@ -23,11 +23,22 @@ body {
   font-size: 60px;
 }
 
+.Header h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .Content {
   height: auto;
   padding-top: 10px;
-  padding-bottom: 0px;
+  padding-bottom: 1px;  /*Must be nonzero to avoid gray bar*/
   background-color: white;
+}
+
+.Content h1 {
+  margin: auto;
+  text-align: center;
+  padding: 100px;
 }
 
 .Content h2 {
