@@ -44,36 +44,27 @@ body {
 }
 
 .SiteBanner {
-  height: 175px;
+  padding-bottom: 30px;
   background: linear-gradient(0deg, rgba(45,199,253,1) 0%, rgba(152,228,254,1) 70%, rgba(255,255,255,1) 100%);
-  display: flex;
-  justify-content: center;
 }
 
 .Circles {
-  margin-top: 20px;
+  margin: 0px auto 20px;
   padding-top: 20px;
   width: 80%;
   display: grid;
-  /* grid-template-columns: 50% 50%; */
+  grid-template-columns: 50% 50%;
 }
 
 .Circle {
   margin: auto;
-  width: 200px;
+  width: 220px;
   border-radius: 90px;
   border: 4pt solid maroon;
   background-color: #d02020;
   text-align: center;
-}
-
-.Circle:hover {
-  margin: auto;
-  width: 200px;
-  border-radius: 90px;
-  border: 4pt solid maroon;
+} .Circle:hover {
   background-color: maroon;
-  text-align: center;
 }
 
 .Circle a {
@@ -85,20 +76,13 @@ body {
 
 .Join {
   margin: auto;
-  width: 400px;
+  width: 50%;
   border-radius: 90px;
   border: 4pt solid maroon;
   background-color: #d02020;
   text-align: center;
-}
-
-.Join:hover {
-  margin: auto;
-  width: 400px;
-  border-radius: 90px;
-  border: 4pt solid maroon;
+} .Join:hover {
   background-color: maroon;
-  text-align: center;
 }
 
 .Join a {
@@ -128,4 +112,5 @@ body {
 .TODO {
   text-decoration: line-through;
   text-decoration-color: white;
+  font-size: 25pt
 }
